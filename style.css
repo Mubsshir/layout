@@ -1,0 +1,279 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.nav{
+    width: 100%;
+    background-color: brown;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+}
+.nav .menu a{
+    color: white;
+    margin-left: 6px;
+    padding: 2px;
+    text-decoration: white;
+    font-size: 20px;
+    font-family: arial;
+    position: relative;
+    top: 3px;
+}
+.nav .menu a:hover{
+    color: darkblue;
+}
+.nav .search {
+
+    height: 29px;
+    width: 15%;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 19px;
+    right: 150px;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+.nav .search input{
+    width: 85%;
+    height: 12%;
+    outline: none;
+    border: none;
+    position: relative;
+    top: .2vw;
+    left: 2%;
+    border-radius: 10px;
+}
+.nav .search button{
+    color: white;
+    float: right;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: brown;
+    border: none;
+    position: relative;
+    right:2px;
+    bottom: 19px;
+}
+.nav .search button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.heading{
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    position: relative;
+    top: 12px;
+    
+}
+.heading h1{
+    font-size: 45px;
+    position: relative;
+    top: 5px;
+    padding-left: 18px;
+
+}
+.heading h2{
+   font-size: 15px;
+   position: relative;
+   bottom: 35px;
+   padding-left: 18px;
+
+}
+
+.socialIcons{
+    float: right;
+    position: relative;
+    right: 55px;
+    bottom: 65px;
+}
+.socialIcons a{
+    padding:1vw;
+    text-decoration: none;
+    
+    background-color:rgb(41, 44, 53);
+    border-radius: 50%;
+}
+.fa-linkedin,.fa-twitter,.fa-pinterest,.fa-google,.fa-rss{
+    color: white;
+}
+.fa-rss:hover{
+    background-color: orangered;
+}
+.fa-google:hover{
+    background: #dd4b39;
+}
+.fa-pinterest:hover{
+    background-color: rgb(255, 8, 0);
+}
+.fa-twitter:hover{
+    background-color: rgb(0, 204, 255);
+}
+.fa-linkedin:hover{
+    background-color: rgb(34, 83, 173);
+}
+.nav2{
+    width: 95%;
+    height: %;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(43, 40, 39);
+    border-radius: 5px;
+}
+.nav2 .menu2{
+   
+    padding: 10px 10px;
+    text-decoration: none;
+    position: relative;
+    top: 1px;
+}
+.nav2 a{
+    color: white;
+    padding-left: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav2 a:hover{
+    color: rgb(131, 21, 21);
+}
+
+.banner{
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+    height: 610px;
+   
+   
+    
+}
+.banner .image{
+    float: left;
+    
+    width: 35%;
+    height: 100%;
+}
+.banner .image img{
+    
+    width: 98%;
+    height: 99%;
+    margin: 1%;
+    padding: 1%;
+}
+.banner .webTitle{
+    float: left;
+    height: 50%;
+    
+    width: 60%;
+    height: 100%;
+    margin-left: 1%;
+    position: relative;
+    top: 15%;
+}
+.banner .webTitle .bigTitle{
+    
+    padding: .9%;
+    margin: 1%;
+    height: 50%;
+}
+.banner .webTitle .bigPerha{
+    padding: .9%;
+    margin: 1%;
+    height: 46%;
+}
+.banner .webTitle .bigTitle h1{
+    width: 80%
+    height: 74%;
+    position: relative;
+    margin-top: auto;
+    font-size: 550%;
+}
+.banner .webTitle .bigPerha{
+    position: relative;
+    bottom: 16%;
+}
+.banner .webTitle .bigPerha a{
+    float:right;
+    text-decoration: none;
+    font-weight: 700;
+    color: red;
+}
+.row{
+    width: 98%;
+    height: 500px;
+    background-color: darkorange;
+    margin:0 auto;
+}
+.row .coloumn{
+    float: left;
+    width: 33%;
+    background-color: darkorchid;
+    height: inherit;
+    margin: 0 auto;
+    margin: 2px;
+    box-shadow: gray 1px;
+}
+
+.row .coloumn .card{
+    width: 99%;
+    background-color: darkseagreen;
+    height: inherit;
+    padding: 1%;
+}
+.row .coloumn .card .aboutHeading{
+    width: 100%;
+    height: 15%;
+    background-color: lime;
+}
+.row .coloumn .card .aboutImage{
+    width: 100%;
+    height: 35%;
+    background-color: brown;
+    margin-top: 2px;
+}
+.row .coloumn .card .aboutDes{
+    width: 100%;
+    height: 50%;
+    background-color: burlywood;
+}
+.row .coloumn .card .services{
+    width: 99%;
+    height: 20.4%;
+    margin-top: 2px;
+    background-color: darkturquoise;
+}
+.row .coloumn .card .services .logo{
+    float: left;
+    width: 26%;
+    height: 100%;
+    background-color: lightblue;
+   
+}
+.row .coloumn .card .services .serviceDes{
+    float: left;
+    width: 74%;
+    height: 100%;
+    background-color: lightcoral;
+
+}
+
+.row .coloumn .card .comments{
+    width: 100%;
+    height: 42%;
+    background-color: lightgreen;
+    margin-bottom: 3px;
+
+}
+.row .coloumn .card .comments .name{
+    width: 100%;
+    height: 30%;
+    background-color: lightseagreen;
+}
